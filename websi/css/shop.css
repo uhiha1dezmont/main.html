@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(27, 27, 27);
+    margin: 0;
+}
+/******container-1******/
+.box_shop::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.box_shop {
+    padding: 4%;
+}
+.col_box_shop {
+    float: left;
+    width: 50%;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(100, 97, 97);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'sans-serif';  
+}
+.col_box_shop h1 {
+    padding-top: 22%;
+    font-size: 50px;
+    padding-left: 15%;
+}
+.col_box_shop p {
+    padding-left: 15%;
+    font-size: 20px;
+}
+.col_box_shop1 img {
+    object-fit: contain;
+    width: 60%;
+    height: 35%;
+    padding-left: 35%;
+} 
+#center_img {
+    display: block;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+#center_img:hover {
+    transition: 0.5s;
+    width: 70px;
+    height: 70px;
+}
+.block_shop {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col_block_shop {
+    float: left;
+    width: 50%;
+    color: rgb(185, 184, 184);
+    text-shadow: 1px 1px 1px rgb(100, 97, 97);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'sans-serif';
+}
+.col_block_shop h2 {
+    padding-top: 22%;
+    font-size: 40px;
+    padding-left: 15%;
+}
+.col_block_shop p1 {
+    padding-left: 15%;
+    font-size: 20px;
+}
+.col_block_shop p2 {
+    padding-left: 15%;
+    padding-top: 3%;
+    font-size: 20px;
+}
+.button_shop1 {
+    display: inline-block;
+    color: rgb(255, 246, 246);
+    font-weight: 500;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    margin-left: 15%;
+    transition: 0.2s;
+}
+.button_shop1:hover {
+    background: rgba(255,255,255,.2);
+}
+.button_shop2 {
+    display: inline-block;
+    color: rgb(255, 246, 246);
+    font-weight: 500;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    margin-left: 15%;
+    transition: 0.2s;
+}
+.button_shop2:hover {
+    background: rgba(255,255,255,.2);
+}

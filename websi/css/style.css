@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(27, 27, 27);
+    margin: 0;
+}
+/******container-1******/
+.box_1::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.box_1 {
+    padding: 4%;
+}
+.col_box_1 {
+    float: left;
+    width: 50%;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(100, 97, 97);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'sans-serif';  
+}
+.col_box_1 h1 {
+    padding-top: 22%;
+    font-size: 50px;
+    padding-left: 15%;
+}
+.col_box_1 p {
+    padding-left: 15%;
+    font-size: 20px;
+}
+a.button1 {
+    display: inline-block;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    margin-left: 15%;
+    transition: 0.2s;
+} 
+a.button1:hover { 
+    background: rgba(255,255,255,.2); 
+}
+.col_box_1 img {
+    object-fit: contain;
+    width: 60%;
+    height: 35%;
+    padding-left: 15%;
+} 
+
+a.button2 {
+    display: inline-block;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    margin-left: 15%;
+    transition: 0.2s;
+} 
+a.button2:hover { 
+    background: rgba(255,255,255,.2); 
+}
+#center_img {
+    display: block;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+#center_img:hover {
+    transition: 0.5s;
+    width: 70px;
+    height: 70px;
+}
