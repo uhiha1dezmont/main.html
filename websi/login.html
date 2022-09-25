@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Добро Пожаловать</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/log.css">
+  <link rel="stylesheet" href="./main.html">
+
+</head>
+<body>
+<form onsubmit="return false">
+  <div class="form-item">
+    <label>Логин</label>
+    <div class="input-wrapper">
+      <input type="text" id="username" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-lpignore="true"/>
+    </div>
+  </div>
+  <div class="form-item">
+    <label>Пароль</label>
+    <div class="input-wrapper">
+      <input type="password" id="password" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-lpignore="true"/>
+      <button type="button" id="eyeball">
+        <div class="eye"></div>
+      </button>
+      <div id="beam"></div>
+    </div>
+  </div>
+  <button id="submit">Вход</button>
+</form>
+  <script  src="jscode/log.js"></script>
+</body>
+</html>

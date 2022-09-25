@@ -1,0 +1,72 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #272727;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.avatar {
+  --border-color: #f88181;
+  --background-color: #212752;
+  --avatar-size: 110px;
+  height: var(--avatar-size);
+  width: var(--avatar-size);
+  border: 4px solid var(--border-color);
+  padding: 3px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.avatar img {
+  max-width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: inherit;
+}
+
+/******nav******/
+
+.container {
+    display: inline-flex;
+    background: #292632;
+    border-radius: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    aspect-ratio : 1 / 1;
+}
+  
+.navbar{
+    background: #292632;
+    border-radius: 2em;
+    padding: 5px 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 0 #484259bd;
+    max-width: 550px;
+    min-width: 300px;
+    margin: 20px;
+}
+  
+.content-wrapper{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+/******tab-bar******/

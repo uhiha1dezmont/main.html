@@ -9,10 +9,10 @@ body {
     clear: both;
 }
 .box_shop {
-    padding: 4%;
+    padding: 5%;
 }
 .col_box_shop {
-    float: left;
+    float: line;
     width: 50%;
     color: white;
     text-shadow: 1px 1px 1px rgb(100, 97, 97);
@@ -51,12 +51,12 @@ body {
 .col_block_shop {
     float: left;
     width: 50%;
-    color: rgb(185, 184, 184);
+    color: rgb(255, 247, 247);
     text-shadow: 1px 1px 1px rgb(100, 97, 97);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', 'sans-serif';
 }
 .col_block_shop h2 {
-    padding-top: 22%;
+    padding-top: 15%;
     font-size: 40px;
     padding-left: 15%;
 }
@@ -64,40 +64,81 @@ body {
     padding-left: 15%;
     font-size: 20px;
 }
-.col_block_shop p2 {
-    padding-left: 15%;
-    padding-top: 3%;
-    font-size: 20px;
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px;
 }
-.button_shop1 {
+
+a {
+    font-size: 15px;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+}
+a.button_shop1 {
     display: inline-block;
     color: rgb(255, 246, 246);
     font-weight: 500;
     text-decoration: none;
     user-select: none;
-    padding: .5em 2em;
+    padding: .4em 2em;
     outline: none;
     border: 2px solid;
     border-radius: 1px;
     margin-left: 15%;
     transition: 0.2s;
 }
-.button_shop1:hover {
+a.button_shop1:hover {
     background: rgba(255,255,255,.2);
 }
-.button_shop2 {
+a.button_shop2 {
     display: inline-block;
     color: rgb(255, 246, 246);
     font-weight: 500;
     text-decoration: none;
     user-select: none;
-    padding: .5em 2em;
+    padding: .4em 2em;
     outline: none;
     border: 2px solid;
     border-radius: 1px;
     margin-left: 15%;
     transition: 0.2s;
 }
-.button_shop2:hover {
+a.button_shop2:hover {
+    background: rgba(255,255,255,.2);
+}
+a.button_shop3 {
+    display: inline-block;
+    color: rgb(255, 246, 246);
+    font-weight: 500;
+    text-decoration: none;
+    user-select: none;
+    padding: .4em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    margin-left: 15%;
+    transition: 0.2s;
+}
+a.button_shop3:hover {
+    background: rgba(255,255,255,.2);
+}
+a.button_shop4 {
+    display: inline-block;
+    color: rgb(255, 246, 246);
+    font-weight: 500;
+    text-decoration: none;
+    user-select: none;
+    padding: .4em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    margin-left: 15%;
+    transition: 0.2s;
+}
+a.button_shop4:hover {
     background: rgba(255,255,255,.2);
 }
